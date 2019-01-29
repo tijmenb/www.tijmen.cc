@@ -1,0 +1,12 @@
+title: Tijmen
+baseurl: ''
+url: 'http://www.tijmen.cc'
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+excerpt_separator: N/A-------N/A... Workaround for https://github.com/mojombo/jekyll/issues/1401
