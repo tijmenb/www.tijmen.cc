@@ -2,11 +2,12 @@
 
 Run in development mode:
 
-    jekyll serve --drafts
+```
+bundle exec jekyll serve
+```
 
 ## Vale
 
 
     brew tap ValeLint/vale
     brew install vale
-    
