@@ -6,7 +6,7 @@ date: 2018/10/02
 
 The first commit to GOV.UK is almost 8 years old and we currently run around 60 applications. Over the last 6 months, we’ve used an automated tool to keep our applications up to date.
 
-In 2017, we wrote a [little tool to analyse and visualise dependencies](https://github.com/alphagov/govuk-dependency-analysis) across our applications. One of the things we did was generate a treemap to show all dependencies and their versions. This showed we were using 487 different dependencies, in 1179 different versions.
+In 2017, we wrote a [little tool to analyse and visualise dependencies](https://github.com/alphagov/govuk-dependency-analysis) across our applications. One of the things we did was generate a treemap to show all dependencies and their versions. This showed we were using 487 different dependencies, in 1179 different versions - for example, we were running 13 distinct versions of Rails.
 
 ![](/media/2018-10-02-1.png)
 
