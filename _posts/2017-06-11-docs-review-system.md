@@ -46,6 +46,7 @@ Here are some useful links:
 - [Original PR that implemented the feature](https://github.com/alphagov/govuk-developer-docs/pull/102)
 - [PR to add review dates retroactively](https://github.com/alphagov/govuk-developer-docs/pull/123)
 - [GOV.UK Docs Monitor][robot]
+- [My talk at LRUG about docs](/2018/03/09/lrug-talk.html)
 
 <style>
 img { border: 1px solid #333 }
