@@ -16,7 +16,7 @@ Updating dependencies becomes more difficult over time. An application with many
 
 Our team needed to find a way to consolidate our dependencies so we could:
 
-- follow the [GOV.UK policy](/manual/keeping-software-current.html) of keeping our dependencies up to date
+- follow the [GOV.UK policy](https://docs.publishing.service.gov.uk/manual/keeping-software-current.html) of keeping our dependencies up to date
 - react quickly to security updates
 - save developers time and frustration by letting them use the same version of dependencies
 
