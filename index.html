@@ -4,19 +4,35 @@ layout: default
 
 <div class="home">
 
-  <h2 class="page-heading">Blog</h2>
+  <section>
+    <h2 class="page-heading">Blog</h2>
 
-  <ul class="post-list">
-    {% for post in site.posts limit:5 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <a href="/posts.html">All blog posts</a>
+    <a href="/posts.html">All blog posts</a>
+  </section>
+
+  <section>
+    <h2 class="page-heading">Projects</h2>
+
+    <ul class="post-list">
+      {% for page in site.pages %}
+        <li>
+          <h2>
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 </div>
