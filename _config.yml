@@ -10,3 +10,5 @@ kramdown:
   input: GFM
 highlighter: rouge
 excerpt_separator: N/A-------N/A... Workaround for https://github.com/mojombo/jekyll/issues/1401
+plugins:
+  - jekyll-redirect-from
