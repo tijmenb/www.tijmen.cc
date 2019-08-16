@@ -5,7 +5,11 @@ layout: post
 redirect_from: "/lrug/"
 ---
 
-I gave a talk at LRUG yesterday about [reusing code from GOV.UK](https://skillsmatter.com/skillscasts/14335-reuse-your-government-s-code). I'll put up the slides here soon. In the meantime, these are the GOV.UK projects mentioned in the talk:
+I gave a talk at LRUG yesterday about [reusing code from GOV.UK](https://skillsmatter.com/skillscasts/14335-reuse-your-government-s-code). The [slides are on Speaker Deck](https://speakerdeck.com/tijmenb/reuse-your-governments-code).
+
+<script async class="speakerdeck-embed" data-id="629c25f6557f46f0b6ce83d37fe7ccaf" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+These are the GOV.UK projects mentioned in the talk:
 
 ## 3 real world applications
 
