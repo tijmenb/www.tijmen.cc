@@ -49,12 +49,19 @@ img {
 /**
  * Figures
  */
+
+figure {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
 figure > img {
     display: block;
 }
 
 figcaption {
-    font-size: $small-font-size;
+    font-style: italic;
+    margin-top: 10px;
 }
 
 
