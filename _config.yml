@@ -1,6 +1,8 @@
 title: Tijmen Brommet
 baseurl: ''
 url: 'https://www.tijmen.cc'
+author:
+  name: Tijmen Brommet
 exclude:
   - Gemfile
   - Gemfile.lock
