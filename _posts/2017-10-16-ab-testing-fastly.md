@@ -15,7 +15,7 @@ Examples of this method for Rails are [Split](https://github.com/splitrb/split) 
 
 ## A/B with a CDN
 
-On GOV.UK this system won’t work. To make the site fast and always available to users, we’re using [Fastly](https://www.fastly.com/) a Content Delivery Network (CDN). This means that most requests to <www.gov.uk> are served from a cache rather than our own servers.
+On GOV.UK this system won’t work. To make the site fast and always available to users, we’re using [Fastly](https://www.fastly.com/) a Content Delivery Network (CDN). This means that most requests to www.gov.uk are served from a cache rather than our own servers.
 
 Having most pages cached makes the site super fast, but it makes a straightforward server side implementation impossible. Without any extra configuration, you would end of caching the A or B version, and serving that for however long your cache TTL is.
 
