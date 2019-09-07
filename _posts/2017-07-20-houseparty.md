@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Find a new flat with Zoopla & Trello
-date: 2017/09/17
+date: 2017/07/20
 ---
 
 Yesterday, I gave a lightning talk at [Codebar](https://codebar.io/). I spoke about the tool I'd built to look for a new flat, using Zoopla and Trello.
